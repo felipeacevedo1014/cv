@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h2>Contact me details</h2>
+    <table>
+      <tr>
+        <td>
+          <strong>Personal email:</strong>
+        </td>
+        <td><a href="mailto:">felipeacevedo1014@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Linkedin:</strong>
+        </td>
+        <td>
+          <a
+            href="https://www.linkedin.com/in/felipeacevedo1014/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Felipe Acevedo</a
+          >
+        </td>
+      </tr>
+      <br />
+    </table>
+    <br />
+
+    <form
+      action="mailto:felipeacevedo1014@gmail.com"
+      enctype="text/plain"
+      method="post"
+    >
+      <label>Name: </label>
+      <input
+        type="text"
+        name="yourName"
+        autocomplete="Name"
+        placeholder="Your name"
+        required
+      /><br />
+      <label for="">Email: </label>
+      <input
+        type="email"
+        name="yourEmail"
+        id=""
+        autocomplete="email"
+        placeholder="Your email"
+        required
+      /><br />
+      <label for="">Message:</label>
+      <textarea name="yourMessage" id="" cols="30" rows="5" required></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
